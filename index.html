@@ -107,8 +107,8 @@
                         </div>
                     </div>
 
-                    <div class="galery_block">
-                        <img src="refs/g1.png" alt="">
+                    <div class="gallery">
+                        <!-- <img src="refs/g1.png" alt="">
                         <img src="refs/g2.png" alt="">
                         <img src="refs/g3.png" alt="">
                         <img src="refs/g4.png" alt="">
@@ -117,8 +117,20 @@
                         <img src="refs/g7.png" alt="">
                         <img src="refs/g8.png" alt="">
                         <img src="refs/g9.png" alt="">
-                        <img src="refs/g10.png" alt="">
+                        <img src="refs/g10.png" alt=""> -->
                     </div>
+
+                    <div id="myModal" class="modal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                            <div class="mySlides">
+                                <img src="img/slide1.png" alt="Фото 1">
+                            </div>
+                        </div>                        
+                        <a class="prev" onclick="plusSlides(-1); stopPropagation(event)">&#10094; </a>
+                        <a class="next" onclick="plusSlides(1); stopPropagation(event)">&#10095; </a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -129,7 +141,7 @@
             <div class="widthBlock">
                 <div class="feedback">
                     <div class="feedback_title">
-                        <div class="title">Связаться со сной</div>
+                        <div class="title">Связаться со мной</div>
                     </div>
 
                     <form action="#" method="post" class="feedback_form">
@@ -150,7 +162,9 @@
         </div>
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/galery.js"></script>
+    <script type="module" src="edit.js"></script>
 </body>
 
 </html>
