@@ -376,3 +376,30 @@ a {
   height: auto;
   max-height: 100%;
 }
+
+/* ---------------------- */
+
+.messageBlock {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+  width: 840px;
+  height: 420px;
+  padding: 80px;
+  border-radius: 4px;
+  /* background-color: #212121; */
+  background: linear-gradient(#212121 0%, #000 100%);
+}
+
+.button_back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+  background-color: black;
+  color: #fff;
+}
