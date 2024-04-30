@@ -6,6 +6,21 @@
   .header {
     flex-direction: column;
   }
+  
+  .footer {
+    padding: 10px 10px 40px;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .footer_block__img {
+    width: 40%;
+  }
+
+  .footer_block__img img{
+    width: 150px;
+  }
+
 
   .header_left {
     width: 100%;
@@ -128,6 +143,7 @@
 
   .feedback_form__inputs input {
     width: 100%;
+    padding: 0 10px;
   }
 
   .feedback_form label {

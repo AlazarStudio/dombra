@@ -106,8 +106,16 @@ a {
 /* -------------------------- */
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1300px;
   gap: 100px;
   align-items: center;
   background-color: #000;
@@ -121,6 +129,17 @@ footer {
   line-height: 24px;
   text-align: left;
   color: #fff;
+}
+
+.footer_block__img {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+}
+
+.footer_block__img img {
+  object-fit: contain;
+  width: 100%;
 }
 
 /* -------------------------- */
